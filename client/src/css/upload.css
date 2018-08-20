@@ -1,0 +1,133 @@
+.main-input {
+  display: none;
+}
+.upload-btn {
+  font-size: 25px;
+  margin: 20px 0 0px 0;
+  width: 60px;
+  height: 40px;
+  background: rgb(155, 152, 152);
+
+  border-radius: 4px;
+  outline: none;
+  box-shadow: 0 1px 1px 1px rgb(219, 216, 216);
+}
+.upload-btn:hover {
+  background: transparent;
+  color: #c3ccd6;
+  cursor: pointer;
+  background: rgba(219, 34, 24, 0.582);
+}
+
+.send-btn {
+  color:#c3ccd6;
+  font-size: 25px;
+  margin: 20px 0 0px 0;
+  width: 60px;
+  height: 40px;
+  background: #009688;
+  border-radius: 4px;
+  outline: none;
+  box-shadow: 0 1px 1px 1px rgb(219, 216, 216);
+}
+.send-btn:hover {
+  
+  color: #1d1f1e;
+  cursor: pointer;
+}
+.send-btn:active {
+  transform: translateY(2px);
+
+  background: rgb(72, 216, 190);
+}
+
+.fa-trash {
+  float: right;
+  margin-right: 20px;
+}
+.clearInput-btn {
+  color: red;
+
+  margin: 0 25px 15px 0;
+}
+.clearInput-btn:hover {
+  cursor: pointer;
+}
+.input-container {
+  display: flex;
+  margin: 0 auto;
+}
+.wrapper {
+  padding-top:5px;
+
+  margin: 0 auto;
+  
+  background: rgb(235, 234, 234);
+  width: 400px;
+  height: 100px;
+  border-radius: 7px;
+  box-shadow: 0 2px 2px 2px gray;
+}
+.wrapper span {
+  margin-top: 5px;
+}
+.file-info {
+  margin: 20px 0 0px 55px;
+  border: 1px solid rgb(206, 203, 203);
+  border-radius: 3px;
+  width: 70%;
+  height: 40px;
+}
+.preview {
+  margin: 15px auto;
+  width: 400px;
+  height: 300px;
+}
+
+.previewImg {
+  max-width: 100%;
+  height: 100%;
+}
+
+
+
+
+
+.active {
+  color:  #E17877;
+}
+
+
+
+/*  CSS Spinner Styles starts here  */
+.lds-dual-ring {
+  display: inline-block;
+  width: 64px;
+  height: 64px;
+}
+.lds-dual-ring:after {
+  content: " ";
+  display: block;
+  width: 46px;
+  height: 46px;
+  margin: 1px;
+  border-radius: 50%;
+  border: 5px solid #fdd;
+  border-color: #fdd transparent #fdd transparent;
+  animation: lds-dual-ring 1.2s linear infinite;
+}
+@keyframes lds-dual-ring {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+
+/*  CSS Spinner Styles finishes here  */
+
+
+
+

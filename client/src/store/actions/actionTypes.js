@@ -1,0 +1,19 @@
+export const AUTH_USER = 'AUTH_USER';
+export const INIT_STORE_USER = "INIT_STORE_USER";
+export const USER_SIGN_UP = "USER_SIGN_UP";
+export const LOGOUT_USER = "LOGOUT_USER";
+export const INIT_USER_SIGN_UP = "INIT_USER_SIGN_UP";
+export const SAVE_ERRORS = "SAVE_ERRORS";
+export const SEARCH_REPO = "SEARCH_REPO";
+export const FETCH_BOOKMARKS = "FETCH_BOOKMARKS";
+export const STORE_FETCHED_REPO = "STORE_FETCHED_REPO ";
+export const DELETE_FILE = "DELETE_FILE";
+export const SERVER_RESPONSE = "SERVER_RESPONSE";
+
+export const STORE_FETCHED_BOOKMARKS = "STORE_FETCHED_BOOKMARKS";
+
+export const ADD_BOOKMARK = "ADD_BOOKMARK";
+export const TOGGLE_LOADER = "TOGGLE_LOADER";
+
+
+
