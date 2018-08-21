@@ -24,3 +24,4 @@ to stop and clean-up the containers  run :
 ```
 docker-compose down
 ```
+### Check the react app on port 3000 and api on port 8000  in your local machine.
